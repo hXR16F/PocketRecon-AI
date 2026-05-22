@@ -1,10 +1,28 @@
-# PocketRecon-AI: Lightweight Cybersecurity Reconnaissance Suite
+# 📡 PocketRecon-AI: Cybersecurity Reconnaissance MCP Server
 
-> **MCP Server for AI-powered security reconnaissance**
+<p align="center">
+    <picture>
+        <img src="https://raw.githubusercontent.com/hXR16F/PocketRecon-AI/refs/heads/main/assets/banner.png" alt="PocketRecon-AI">
+    </picture>
+</p>
 
-[![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)&nbsp;
-[![License: MIT](https://img.shields.io/badge/license-GPLv3-orange.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)&nbsp;
-[![Raspberry Pi](https://img.shields.io/badge/Raspberry%20Pi-Compatible-green.svg)](https://www.raspberrypi.org/)
+<p align="center">
+  <strong>Lightweight MCP server for local AI-powered cybersecurity reconnaissance</strong>
+</p>
+
+<p align="center">
+  <a href="https://www.python.org/downloads/">
+    <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+">
+  </a>
+
+  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
+    <img src="https://img.shields.io/badge/license-GPLv3-orange.svg" alt="GPLv3 License">
+  </a>
+
+  <a href="https://www.raspberrypi.org/">
+    <img src="https://img.shields.io/badge/Raspberry%20Pi-Compatible-green.svg" alt="Raspberry Pi Compatible">
+  </a>
+</p>
 
 ---
 
