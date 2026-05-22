@@ -28,7 +28,7 @@
 
 ## Overview
 
-**PocketRecon-AI** is a **Model Context Protocol (MCP) server** that enables Large Language Models (LLMs) to perform cybersecurity reconnaissance tasks directly within conversational interfaces. Built for **low-power devices** like Raspberry Pi and local PCs, PocketRecon-AI connects AI agents with powerful security tools including **Nmap, Netcat, WhatWeb, Curl, and more**.
+**PocketRecon-AI** is a **Model Context Protocol (MCP) server** that enables Large Language Models (LLMs) to perform cybersecurity reconnaissance tasks directly within conversational interfaces. Built for **low-power devices** like Raspberry Pi and local PCs. PocketRecon-AI connects AI agents with powerful security tools including **Nmap, Netcat, WhatWeb, Curl, and more**.
 
 The system uses a **two-tier architecture**: an MCP server that communicates with your LLM (LM Studio, VS Code, Cursor, etc.), and a Flask-based backend API that executes the actual system commands.
 
@@ -61,6 +61,21 @@ PocketRecon-AI is **cross-platform**, and runs on both **Linux and Windows** env
 - **MCP Server** – Native Model Context Protocol support
 - **Works with**: LM Studio, VS Code, Cursor, Ollama, and any MCP-compatible client
 - **Automated security workflows** via conversational interface
+
+---
+
+## Technical Comparison
+
+Comparison of AI-powered cybersecurity reconnaissance platforms, autonomous pentesting assistants, and MCP-based offensive security tooling.
+
+| Feature | [**PocketRecon-AI**](https://github.com/hXR16F/PocketRecon-AI) | [**mcp-kali-server**](https://www.kali.org/tools/mcp-kali-server/) | [**PentAGI**](https://pentagi.com/) | [**HexStrike-AI**](https://www.hexstrike.com/) |
+|---------|--------------------|---------------------|-------------|------------------|
+| **Weight** | 🟢 Extremely Lightweight | 🟡 Moderate | 🔴 Very Heavy | 🟡 Moderate |
+| **Safety** | 🟢 Abstracted wrapper-based execution | 🔴 Direct shell command execution | 🟢 Containerized sandbox execution | 🔴 Direct shell command execution |
+| **Dependencies** | 🟢 Python + Nmap | 🟡 Kali Linux environment | 🔴 20+ GB stack + API keys | 🟠 150+ external tools |
+| **Setup Complexity** | 🟢 Minimal | 🟡 Moderate | 🔴 High | 🟡 Moderate |
+| **System Requirements** | 🟢 Runs on a Potato | 🟡 Low-end PC | 🔴 4+ GB RAM recommended | 🟡 Low-end PC |
+| **Capability Scope** | 🟡 Reconnaissance & scanning | 🟢 Full Kali ecosystem | 🟢 Autonomous pentesting framework | 🟢 Broad offensive tooling |
 
 ---
 
