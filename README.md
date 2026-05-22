@@ -100,17 +100,18 @@ cd PocketRecon-AI
 ```
 
 #### Step 2: Create virtual environment
-```
+```bash
 python -m venv venv
 source venv/bin/activate    # On Windows: venv\Scripts\activate
 ```
 
-#### Step 3: Install Dependencies
+#### Step 3: Install dependencies
 ```bash
 pip install -r requirements.txt
+sudo apt install nmap    # On Windows: install from https://nmap.org/download#windows
 ```
 
-#### Step 4: Run Backend API Server
+#### Step 4: Run backend API Server
 ```bash
 python pocket_recon_server.py --host 0.0.0.0 --port 5005
 ```
@@ -143,14 +144,18 @@ docker run -d \
 1. Open LM Studio and edit `mcp.json`.
 2. Configure as follows:
 ```json
-"PocketRecon-AI": {
-  "command": "python",
-  "args": [
-    "/path/to/pocket_recon_mcp.py",
-    "--server",
-    "http://localhost:5005"
-  ],
-  "timeout": 900000
+{
+  "mcpServers": {
+    "PocketRecon-AI": {
+      "command": "python",
+      "args": [
+        "/path/to/pocket_recon_mcp.py",
+        "--server",
+        "http://localhost:5005"
+      ],
+      "timeout": 900000
+    }
+  }
 }
 ```
 
