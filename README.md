@@ -1,4 +1,4 @@
-# 📡 PocketRecon-AI: Cybersecurity Reconnaissance MCP Server
+# 📡 PocketRecon-AI
 
 <p align="center">
     <picture>
