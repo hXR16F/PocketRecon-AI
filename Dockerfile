@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     nmap \
     iputils-ping \
     traceroute \
+    netcat-traditional \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
