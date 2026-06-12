@@ -102,6 +102,7 @@ The **MCP Server (client)** exposes tools to your LLM and forwards requests to t
   - `curl`
   - `ping`
   - `traceroute`
+  - `netcat`
   - `nmap`
 
 ---
