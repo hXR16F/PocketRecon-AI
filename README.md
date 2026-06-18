@@ -15,8 +15,8 @@
     <img src="https://img.shields.io/badge/python-3.10+-blue.svg" alt="Python 3.10+">
   </a>
 
-  <a href="https://www.gnu.org/licenses/gpl-3.0.en.html">
-    <img src="https://img.shields.io/badge/license-GPLv3-orange.svg" alt="GPLv3 License">
+  <a href="https://opensource.org/license/MIT">
+      <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
   </a>
 
   <a href="https://www.raspberrypi.org/">
